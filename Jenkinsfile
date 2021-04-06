@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'docker-agent' } 
+    agent { label 'docker-agent2' } 
     stages {
         stage('Clone source code') {
             steps {
